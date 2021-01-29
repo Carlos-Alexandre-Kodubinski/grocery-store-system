@@ -1,4 +1,4 @@
-import registermachine
+import db_backend
 from interface import menu
 
 FILTROS = ['nome', 'Tipo', 'Marca', 'Valor']
