@@ -3,8 +3,6 @@ from commands import Switch
 from interface import menu
 from database.bd_connection import new_connection
 from mysql.connector.errors import ProgrammingError
-from last_user import data
-
 
 TEXT_MENU = ['Ver Produtos em estoque', 'Procurar produto',
              'Adicionar produto', 'Remover Produto', 'Valor do estoque',
