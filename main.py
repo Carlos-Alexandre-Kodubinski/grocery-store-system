@@ -1,5 +1,5 @@
 #!venv/bin/python
-from commands import Switch
+from switch_case import Switch
 from interface import menu
 from database.bd_connection import new_connection
 from mysql.connector.errors import ProgrammingError
